@@ -1,0 +1,16 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #edeef0;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.container__inner{
+    display: flex;
+    margin: 10px auto;
+    overflow: hidden;
+    max-width: 1000px;
+}

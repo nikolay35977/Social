@@ -1,0 +1,21 @@
+﻿.pages__inner{
+    margin: 0 auto;
+}
+
+.pages{
+    font-size: 25px;
+    padding: 0 5px;
+    color: #3e6179;
+}
+
+.pages:hover{
+    cursor: pointer;
+    color: #597da3;
+}
+
+.page__selected{
+    padding: 0 5px;
+    color: #344f65;
+    font-size: 25px;
+    font-weight: bold;
+}

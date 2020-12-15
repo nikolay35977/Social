@@ -1,0 +1,102 @@
+.inner {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    max-width: 500px;
+    height: 600px;
+    margin: auto;
+
+    align-items: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.inner__title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+    margin: 50px auto 0;
+}
+
+.inner__input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+.email__and__password {
+    padding: 20px 15px;
+    font-size: 20px;
+    border: 1px solid #deded1;
+}
+
+.email__and__password:first-child {
+    border-bottom: none;
+}
+
+.checkbox__inner{
+    margin-top: 10px;
+}
+
+.inner__btn{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    background-color: #020278;
+    cursor: pointer;
+    padding: 20px 0;
+    font-size: 13px;
+    
+    transition: background-color .3s linear;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.inner__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 30px;
+    
+    font-size: 15px;
+    
+    color: #999999;
+}
+
+.forgot{
+    margin-bottom: 10px;
+}
+
+.create{
+    
+}
+
+.captcha{
+    max-width: 100%;
+}
+
+.captcha__inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.summary__error{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}

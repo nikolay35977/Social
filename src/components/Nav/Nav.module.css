@@ -1,0 +1,32 @@
+﻿.nav__inner{
+    width: 200px;
+    background-color: #597da3;
+    margin-right: 10px;
+    min-height: 100vh;
+    
+    color: white;
+    padding-left: 10px;
+}
+
+.friends__inner{
+    font-size: 20px;
+}
+
+﻿.nav{
+    
+}
+
+.nav div>a{
+    font-size: 25px;
+    font-weight: revert;
+    color: white;
+    text-decoration: none;
+}
+
+nav div>a:hover{
+    color: #e2f100;
+}
+
+.nav div>a.active{
+    color: #72642c;
+}

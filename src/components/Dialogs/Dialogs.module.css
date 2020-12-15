@@ -1,0 +1,57 @@
+﻿.inner{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.dialogs{
+    width: 50%;
+}
+
+.dialog{
+    width: 50%;
+    padding: 10px;
+}
+
+.message__inner{
+    position: relative;
+    background-color: #95c9d2;
+    height: 100%;
+}
+
+.messages{
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+}
+
+.dialog__bottom{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+
+.button__inner{
+    width: 30%;
+    background-color: #344f65;
+    border: none;
+    cursor: pointer;
+    transition: background-color linear .2s;
+}
+
+.button__inner:hover{
+    background-color: #3e6179;
+}
+
+.textarea__inner{
+    height: 60px;
+    width: 70%;
+}
+
+.textarea__inner:focus{
+    border: 1px solid #393333;
+}

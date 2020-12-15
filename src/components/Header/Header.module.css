@@ -1,0 +1,53 @@
+﻿﻿.header{
+    max-width: 1000px;
+    background-color: #597da3;
+    margin: 0 auto;
+}
+
+.img{
+    width: 32px;
+    height: 32px;
+}
+
+.login__inner{
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    min-width: 100px;
+    margin-right: 10px;
+}
+
+.login__inner > a{
+    color: #e2f100;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.login{
+    font-size: 20px;
+    color: #e2f100;
+}
+
+.login__inner > a:hover{
+    cursor: pointer;
+    color: #656a0b
+}
+
+.login__logout{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.logout{
+    color: #ff0000;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.logout:hover{
+    cursor: pointer;
+    color: #656a0b
+}

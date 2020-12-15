@@ -1,0 +1,42 @@
+﻿.item {
+    display: flex;
+    color: red;
+    background-color: white;
+}
+
+.textarea__inner {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 0;
+    outline: 0;
+    line-height: 25px;
+    background-size: 8px 40px;
+    letter-spacing: 0.1em;
+    background-attachment: local;
+    background-repeat: repeat;
+    border-width: 2px;
+    resize: none;
+}
+
+.textarea__inner:focus{
+    border-color: #597da3;
+}
+
+.button__inner{
+    margin-bottom: 20px;
+    background-color: #597da3;
+    border: none;
+    cursor: pointer;
+    transition: background-color linear .2s;
+}
+
+.button__inner:hover{
+    background-color: #344f65;
+    border: none;
+}
+
+.text__inner{
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 30px;
+}

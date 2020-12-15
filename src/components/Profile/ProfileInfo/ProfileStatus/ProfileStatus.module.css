@@ -1,0 +1,16 @@
+﻿.status__inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.text__inner{
+    cursor: pointer;
+}
+
+.input__inner{
+    
+}
+
+.button__inner{
+    
+}
